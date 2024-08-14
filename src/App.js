@@ -167,7 +167,7 @@ const App = () => {
           <p><strong>DIMM Slots:</strong> {selectedMotherboard.dimms}</p>
           <p><strong>Color:</strong> {selectedMotherboard.color}</p>
           <p>
-            <strong>Latest Microcode Update: </strong>
+            <strong>Latest Microcode Update (0x129): </strong>
             <span className={`font-bold ${selectedMotherboard.hasLatestMicrocode ? 'text-green-600' : 'text-red-600'}`}>
               {selectedMotherboard.hasLatestMicrocode ? 'Available' : 'Not Available'}
             </span>
@@ -178,7 +178,7 @@ const App = () => {
             rel="noopener noreferrer"
             className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors"
           >
-            Visit Support Page
+            Link to Download BIOS
           </a>
         </div>
       )}
@@ -233,7 +233,7 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Motherboard Information</h1>
+      <h1 className="text-3xl font-bold mb-4">Motherboard BIOS Search</h1>
       {error && <p className="text-red-500">Error: {error}</p>}
       <div className="mb-4">
         <button
