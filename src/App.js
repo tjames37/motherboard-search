@@ -36,10 +36,15 @@ const App = () => {
   }, []);
 
   const filteredMotherboards = useMemo(() => {
+    if (!search.trim()) return [];
+    
+    const searchTerms = search.toLowerCase().split(/\s+/);
+    
     try {
-      return parsedData.filter(mb => 
-        mb.model.toLowerCase().includes(search.toLowerCase())
-      );
+      return parsedData.filter(mb => {
+        const modelText = `${mb.manufacturer} ${mb.chipset} ${mb.model}`.toLowerCase();
+        return searchTerms.every(term => modelText.includes(term));
+      });
     } catch (err) {
       console.error('Error in filtering:', err);
       setError(err.message);
