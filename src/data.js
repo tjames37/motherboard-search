@@ -436,7 +436,7 @@ Gigabyte,B660,Gigabyte B660M GAMING AC DDR4,LGA1700,Micro ATX,2,Black / Red,http
 Gigabyte,B660,Gigabyte B660M GAMING DDR4,LGA1700,Micro ATX,2,Black / Red,https://www.gigabyte.com/Motherboard/B660M-GAMING-DDR4-rev-10/support#support-dl-bios,TRUE
 Gigabyte,Q670,Gigabyte Q670M D3H,LGA1700,Micro ATX,4,Brown / Gray,https://www.gigabyte.com/Motherboard/Q670M-D3H-rev-10/support#support-dl-bios,TRUE
 Gigabyte,Z690,Gigabyte Z690I AORUS ULTRA LITE,LGA1700,Mini ITX,2,Black,https://www.gigabyte.com/Motherboard/Z690I-AORUS-ULTRA-LITE-rev-10/support#support-dl-bios,TRUE
-Gigabyte,Z790,Gigabyte Z790M AORUS ELITE,LGA1700,Micro ATX,4,Silver / Black,https://www.gigabyte.com/Motherboard/Z790M-AORUS-ELITE-rev-10/support#support-dl-bios,FALSE
+Gigabyte,Z790,Gigabyte Z790M AORUS ELITE,LGA1700,Micro ATX,4,Silver / Black,https://www.gigabyte.com/Motherboard/Z790M-AORUS-ELITE-rev-10/support#support-dl-bios,TRUE
 Gigabyte,Z690,Gigabyte Z690 UD AX,LGA1700,ATX,4,Black,https://www.gigabyte.com/Motherboard/Z690-UD-AX-rev-1x/support#support-dl-bios,TRUE
 Gigabyte,B660,Gigabyte B660M AORUS Pro DDR4,LGA1700,Micro ATX,4,Black,https://www.gigabyte.com/Motherboard/B660M-AORUS-Pro-DDR4-rev-10/support#support-dl-bios,TRUE
 Gigabyte,B760,Gigabyte B760M AORUS ELITE,LGA1700,Micro ATX,4,Black / Silver,https://www.gigabyte.com/Motherboard/B760M-AORUS-ELITE-rev-1x/support#support-dl-bios,TRUE
