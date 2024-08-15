@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SearchComponent from './components/SearchComponent';
+import BiosUpdateInstructions from './components/BiosUpdateInstructions';
 import StatisticsComponent from './components/StatisticsComponent';
 import { csvData } from './data';
 
@@ -33,16 +34,21 @@ const App = () => {
           Search
         </button>
         <button
+          className={`mr-2 px-4 py-2 rounded ${activeTab === 'biosUpdate' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+          onClick={() => setActiveTab('biosUpdate')}
+        >
+          How To Update BIOS
+        </button>
+        <button
           className={`px-4 py-2 rounded ${activeTab === 'statistics' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
           onClick={() => setActiveTab('statistics')}
         >
           Statistics
         </button>
       </div>
-      {activeTab === 'search' 
-        ? <SearchComponent parsedData={parsedData} /> 
-        : <StatisticsComponent parsedData={parsedData} />
-      }
+      {activeTab === 'search' && <SearchComponent parsedData={parsedData} />}
+      {activeTab === 'biosUpdate' && <BiosUpdateInstructions />}
+      {activeTab === 'statistics' && <StatisticsComponent parsedData={parsedData} />}
     </div>
   );
 };
