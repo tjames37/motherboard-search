@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { Search, X } from 'lucide-react';
+import { Search, X, HelpCircle } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, Legend } from 'recharts';
 
 // Assume csvData is imported from './data.js'
@@ -28,6 +28,7 @@ const App = () => {
   const [error, setError] = useState(null);
   const [selectedChipsets, setSelectedChipsets] = useState([]);
   const [showResults, setShowResults] = useState(false);
+  const [showHelpPopup, setShowHelpPopup] = useState(false);
   const searchRef = useRef(null);
   const resultsRef = useRef(null);
 
@@ -120,6 +121,38 @@ const App = () => {
     }
   };
 
+  const renderHelpPopup = () => (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white p-6 rounded-lg shadow-lg max-w-md">
+        <h2 className="text-xl font-bold mb-4">How to Find Your Motherboard Model</h2>
+        <ol className="space-y-2">
+          <li className="flex items-start">
+            <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0">1</span>
+            <span>Press Win + R to open the Run dialog</span>
+          </li>
+          <li className="flex items-start">
+            <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0">2</span>
+            <span>Type "msinfo32" and press Enter</span>
+          </li>
+          <li className="flex items-start">
+            <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0">3</span>
+            <span>In the System Information window, look for "BaseBoard Manufacturer" and "BaseBoard Product"</span>
+          </li>
+          <li className="flex items-start">
+            <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center mr-2 flex-shrink-0">4</span>
+            <span>These will give you the manufacturer and model of your motherboard</span>
+          </li>
+        </ol>
+        <button
+          onClick={() => setShowHelpPopup(false)}
+          className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+
   const renderSearch = () => (
     <div className="relative">
       <div className="sticky top-0 z-20 bg-white pb-4" ref={searchRef}>
@@ -146,6 +179,13 @@ const App = () => {
             </button>
           )}
         </div>
+        <button
+          onClick={() => setShowHelpPopup(true)}
+          className="mt-2 text-sm text-blue-500 hover:text-blue-700 flex items-center"
+        >
+          <HelpCircle size={16} className="mr-1" />
+          Not sure about your motherboard?
+        </button>
       </div>
       {showResults && search && (
         <div className="absolute z-10 w-full bg-white border rounded-md shadow-lg" ref={resultsRef}>
@@ -172,7 +212,7 @@ const App = () => {
           <p><strong>DIMM Slots:</strong> {selectedMotherboard.dimms}</p>
           <p><strong>Color:</strong> {selectedMotherboard.color}</p>
           <p>
-            <strong>Latest Microcode Update (0x129): </strong>
+            <strong>Latest Microcode Update: </strong>
             <span className={`font-bold ${selectedMotherboard.hasLatestMicrocode ? 'text-green-600' : 'text-red-600'}`}>
               {selectedMotherboard.hasLatestMicrocode ? 'Available' : 'Not Available'}
             </span>
@@ -183,7 +223,7 @@ const App = () => {
             rel="noopener noreferrer"
             className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors"
           >
-            Link to Download BIOS
+            Visit Support Page
           </a>
         </div>
       )}
@@ -238,7 +278,7 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Motherboard BIOS Search</h1>
+      <h1 className="text-3xl font-bold mb-4">Motherboard Information</h1>
       {error && <p className="text-red-500">Error: {error}</p>}
       <div className="mb-4">
         <button
@@ -255,6 +295,7 @@ const App = () => {
         </button>
       </div>
       {activeTab === 'search' ? renderSearch() : renderStatistics()}
+      {showHelpPopup && renderHelpPopup()}
     </div>
   );
 };
