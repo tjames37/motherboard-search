@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import ReactGA from 'react-ga4';
 import SearchComponent from './components/SearchComponent';
 import BiosUpdateInstructions from './components/BiosUpdateInstructions';
 import StatisticsComponent from './components/StatisticsComponent';
 import LicenseInfo from './components/LicenseInfo';
 import { csvData } from './data';
+
+// Initialize Google Analytics
+ReactGA.initialize('G-VK1PHNS0J0'); 
 
 // Parse the CSV data
 const parsedData = csvData.split('\n').slice(1).map(row => {
@@ -24,25 +28,39 @@ const parsedData = csvData.split('\n').slice(1).map(row => {
 const App = () => {
   const [activeTab, setActiveTab] = useState('search');
 
+  useEffect(() => {
+    // Record a pageview for the active tab
+    ReactGA.send({ hitType: "pageview", page: `/${activeTab}` });
+  }, [activeTab]);
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    ReactGA.event({
+      category: 'User',
+      action: 'Changed Tab',
+      label: tab
+    });
+  };
+
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Motherboard BIOS Search</h1>
       <div className="mb-4">
         <button
           className={`mr-2 px-4 py-2 rounded ${activeTab === 'search' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-          onClick={() => setActiveTab('search')}
+          onClick={() => handleTabChange('search')}
         >
           Search
         </button>
         <button
           className={`mr-2 px-4 py-2 rounded ${activeTab === 'biosUpdate' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-          onClick={() => setActiveTab('biosUpdate')}
+          onClick={() => handleTabChange('biosUpdate')}
         >
           How To Update BIOS
         </button>
         <button
           className={`px-4 py-2 rounded ${activeTab === 'statistics' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-          onClick={() => setActiveTab('statistics')}
+          onClick={() => handleTabChange('statistics')}
         >
           Statistics
         </button>
