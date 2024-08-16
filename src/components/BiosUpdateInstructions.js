@@ -32,7 +32,7 @@ const BiosUpdateInstructions = () => {
               <ol className="list-decimal list-inside ml-4">
                 <li>Right-click on the USB drive in File Explorer.</li>
                 <li>Select "Format..."</li>
-                <li>Choose "FAT32" as the file system.</li>
+                <li>Choose "FAT32" or "exFAT" as the file system.</li>
                 <li>Click "Start" to format the drive.</li>
               </ol>
             </li>
