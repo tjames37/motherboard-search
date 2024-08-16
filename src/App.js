@@ -28,7 +28,7 @@ const parsedData = csvData.split('\n').slice(1).map(row => {
 
 const App = () => {
   const [activeTab, setActiveTab] = useState(() => {
-    const path = window.location.pathname.slice(1);
+    const path = window.location.pathname.split('/').pop();
     return ['biosUpdate', 'statistics'].includes(path) ? path : '';
   });
 
@@ -53,7 +53,8 @@ const App = () => {
   const handleTabChange = (tab, event) => {
     event.preventDefault();
     setActiveTab(tab);
-    window.history.pushState(null, '', tab ? `/${tab}` : '/');
+    const newPath = tab ? `${window.location.pathname.split('/').slice(0, -1).join('/')}/${tab}` : '/motherboard-search/';
+    window.history.pushState(null, '', newPath);
     ReactGA.event({
       category: 'User',
       action: 'Changed Tab',
@@ -92,21 +93,21 @@ const App = () => {
       <h1 className="text-3xl font-bold mb-4">Motherboard BIOS Search</h1>
       <nav className="mb-4">
         <a
-          href="/"
+          href="/motherboard-search/"
           onClick={(e) => handleTabChange('', e)}
           className={`mr-2 px-4 py-2 rounded ${activeTab === '' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
         >
           Search
         </a>
         <a
-          href="/biosUpdate"
+          href="/motherboard-search/biosUpdate"
           onClick={(e) => handleTabChange('biosUpdate', e)}
           className={`mr-2 px-4 py-2 rounded ${activeTab === 'biosUpdate' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
         >
           How To Update BIOS
         </a>
         <a
-          href="/statistics"
+          href="/motherboard-search/statistics"
           onClick={(e) => handleTabChange('statistics', e)}
           className={`px-4 py-2 rounded ${activeTab === 'statistics' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
         >
