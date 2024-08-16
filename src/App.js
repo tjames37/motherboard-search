@@ -27,33 +27,36 @@ const parsedData = csvData.split('\n').slice(1).map(row => {
 
 const App = () => {
   const [activeTab, setActiveTab] = useState(() => {
-    const hash = window.location.hash.slice(1);
-    return ['search', 'biosUpdate', 'statistics'].includes(hash) ? hash : 'search';
+    const path = window.location.pathname.slice(1);
+    return ['biosUpdate', 'statistics'].includes(path) ? path : '';
   });
 
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash.slice(1);
-      if (['search', 'biosUpdate', 'statistics'].includes(hash)) {
-        setActiveTab(hash);
+    const handlePopState = () => {
+      const path = window.location.pathname.slice(1);
+      if (['biosUpdate', 'statistics'].includes(path)) {
+        setActiveTab(path);
+      } else {
+        setActiveTab('');
       }
     };
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
   useEffect(() => {
-    ReactGA.send({ hitType: "pageview", page: `/${activeTab}` });
+    ReactGA.send({ hitType: "pageview", page: activeTab ? `/${activeTab}` : '/' });
   }, [activeTab]);
 
-  const handleTabChange = (tab) => {
+  const handleTabChange = (tab, event) => {
+    event.preventDefault();
     setActiveTab(tab);
-    window.location.hash = tab;
+    window.history.pushState(null, '', tab ? `/${tab}` : '/');
     ReactGA.event({
       category: 'User',
       action: 'Changed Tab',
-      label: tab
+      label: tab || 'home'
     });
   };
 
@@ -79,34 +82,37 @@ const App = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tjames37.github.io/motherboard-search/" />
         <meta property="og:image" content="https://tjames37.github.io/motherboard-search/image.jpg" />
-        <link rel="canonical" href={`https://tjames37.github.io/motherboard-search/#${activeTab}`} />
+        <link rel="canonical" href={`https://tjames37.github.io/motherboard-search${activeTab ? `/${activeTab}` : ''}`} />
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       </Helmet>
 
       <h1 className="text-3xl font-bold mb-4">Motherboard BIOS Search</h1>
-      <div className="mb-4">
-        <button
-          className={`mr-2 px-4 py-2 rounded ${activeTab === 'search' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-          onClick={() => handleTabChange('search')}
+      <nav className="mb-4">
+        <a
+          href="/"
+          onClick={(e) => handleTabChange('', e)}
+          className={`mr-2 px-4 py-2 rounded ${activeTab === '' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
         >
           Search
-        </button>
-        <button
+        </a>
+        <a
+          href="/biosUpdate"
+          onClick={(e) => handleTabChange('biosUpdate', e)}
           className={`mr-2 px-4 py-2 rounded ${activeTab === 'biosUpdate' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-          onClick={() => handleTabChange('biosUpdate')}
         >
           How To Update BIOS
-        </button>
-        <button
+        </a>
+        <a
+          href="/statistics"
+          onClick={(e) => handleTabChange('statistics', e)}
           className={`px-4 py-2 rounded ${activeTab === 'statistics' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-          onClick={() => handleTabChange('statistics')}
         >
           Statistics
-        </button>
-      </div>
-      {activeTab === 'search' && <SearchComponent parsedData={parsedData} />}
+        </a>
+      </nav>
+      {activeTab === '' && <SearchComponent parsedData={parsedData} />}
       {activeTab === 'biosUpdate' && <BiosUpdateInstructions />}
       {activeTab === 'statistics' && <StatisticsComponent parsedData={parsedData} />}
       
