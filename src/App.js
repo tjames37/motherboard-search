@@ -4,6 +4,7 @@ import ReactGA from 'react-ga4';
 import SearchComponent from './components/SearchComponent';
 import BiosUpdateInstructions from './components/BiosUpdateInstructions';
 import StatisticsComponent from './components/StatisticsComponent';
+import IntroSection from './components/IntroSection';
 import LicenseInfo from './components/LicenseInfo';
 import { csvData } from './data';
 
@@ -112,7 +113,12 @@ const App = () => {
           Statistics
         </a>
       </nav>
-      {activeTab === '' && <SearchComponent parsedData={parsedData} />}
+      {activeTab === '' && (
+        <>
+          <IntroSection />
+          <SearchComponent parsedData={parsedData} />
+        </>
+      )}
       {activeTab === 'biosUpdate' && <BiosUpdateInstructions />}
       {activeTab === 'statistics' && <StatisticsComponent parsedData={parsedData} />}
       
