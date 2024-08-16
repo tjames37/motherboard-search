@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga4';
 import SearchComponent from './components/SearchComponent';
 import BiosUpdateInstructions from './components/BiosUpdateInstructions';
@@ -6,8 +7,7 @@ import StatisticsComponent from './components/StatisticsComponent';
 import LicenseInfo from './components/LicenseInfo';
 import { csvData } from './data';
 
-// Initialize Google Analytics
-ReactGA.initialize('G-VK1PHNS0J0'); 
+ReactGA.initialize('G-VK1PHNS0J0');
 
 // Parse the CSV data
 const parsedData = csvData.split('\n').slice(1).map(row => {
@@ -26,15 +26,30 @@ const parsedData = csvData.split('\n').slice(1).map(row => {
 }).filter(mb => mb.manufacturer !== '');
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState('search');
+  const [activeTab, setActiveTab] = useState(() => {
+    const hash = window.location.hash.slice(1);
+    return ['search', 'biosUpdate', 'statistics'].includes(hash) ? hash : 'search';
+  });
 
   useEffect(() => {
-    // Record a pageview for the active tab
+    const handleHashChange = () => {
+      const hash = window.location.hash.slice(1);
+      if (['search', 'biosUpdate', 'statistics'].includes(hash)) {
+        setActiveTab(hash);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: `/${activeTab}` });
   }, [activeTab]);
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
+    window.location.hash = tab;
     ReactGA.event({
       category: 'User',
       action: 'Changed Tab',
@@ -42,8 +57,34 @@ const App = () => {
     });
   };
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Motherboard BIOS Search and Update Tool",
+    "description": "Find and update your motherboard BIOS easily. Search for your motherboard model, get direct links to BIOS downloads, and learn how to update your BIOS safely.",
+    "url": "https://tjames37.github.io/motherboard-search/",
+    "applicationCategory": "Utility",
+    "operatingSystem": "Web"
+  };
+
   return (
     <div className="container mx-auto p-4">
+      <Helmet>
+        <title>Motherboard BIOS Search and Update Tool</title>
+        <meta name="description" content="Find and update your motherboard BIOS easily. Search for your motherboard model, get direct links to BIOS downloads, and learn how to update your BIOS safely." />
+        <meta name="keywords" content="motherboard, BIOS, update, search, Intel, 600 series, 700 series, 0x129, microcode, 13th gen, 14th gen" />
+        <meta name="author" content="Taylor James" />
+        <meta property="og:title" content="Motherboard BIOS Search and Update Tool" />
+        <meta property="og:description" content="Find and update your motherboard BIOS easily. Search for your motherboard model, get direct links to BIOS downloads, and learn how to update your BIOS safely." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://tjames37.github.io/motherboard-search/" />
+        <meta property="og:image" content="https://tjames37.github.io/motherboard-search/image.jpg" />
+        <link rel="canonical" href={`https://tjames37.github.io/motherboard-search/#${activeTab}`} />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
+
       <h1 className="text-3xl font-bold mb-4">Motherboard BIOS Search</h1>
       <div className="mb-4">
         <button
