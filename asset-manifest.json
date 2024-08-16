@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/motherboard-search/static/css/main.64456491.css",
-    "main.js": "/motherboard-search/static/js/main.b8b34c1c.js",
+    "main.js": "/motherboard-search/static/js/main.9c81a6e9.js",
     "static/js/453.05a3cba9.chunk.js": "/motherboard-search/static/js/453.05a3cba9.chunk.js",
     "index.html": "/motherboard-search/index.html",
     "main.64456491.css.map": "/motherboard-search/static/css/main.64456491.css.map",
-    "main.b8b34c1c.js.map": "/motherboard-search/static/js/main.b8b34c1c.js.map",
+    "main.9c81a6e9.js.map": "/motherboard-search/static/js/main.9c81a6e9.js.map",
     "453.05a3cba9.chunk.js.map": "/motherboard-search/static/js/453.05a3cba9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64456491.css",
-    "static/js/main.b8b34c1c.js"
+    "static/js/main.9c81a6e9.js"
   ]
 }
