@@ -1,6 +1,7 @@
 {
   "name": "motherboard-search-app",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "homepage": "https://tjames37.github.io/motherboard-search",
   "dependencies": {
