@@ -281,6 +281,7 @@ Asus,B760,Asus PRIME B760M-AJ D4,LGA1700,Micro ATX,4,Silver / Black,https://www.
 Asus,Q670,Asus Pro Q670M-CE D4-CSM,LGA1700,Micro ATX,4,Green / Black,https://www.asus.com/motherboards-components/motherboards/csm/pro-q670m-ce-d4-csm/helpdesk_bios/,TRUE
 Asus,B760,Asus PRIME B760M-F-CSM,LGA1700,Micro ATX,2,Black / Gray,https://www.asus.com/motherboards-components/motherboards/csm/prime-b760m-f-csm/helpdesk_bios/,FALSE
 Asus,H610,Asus EX-H610M-V3 D4-CSM,LGA1700,Micro ATX,2,Red / Black,https://www.asus.com/motherboards-components/motherboards/csm/ex-h610m-v3-d4-csm/helpdesk_bios/,TRUE
+ASUS,B760,Asus PRIME B760M-A WIFI,LGA1700,Micro ATX,4,White / Black,https://www.asus.com/in/motherboards-components/motherboards/prime/prime-b760m-a-wifi/helpdesk_bios/,TRUE
 Biostar,H610,Biostar H610MH,LGA1700,Micro ATX,2,Gray / Black,https://www.biostar-usa.com/app/en-us/mb/introduction.php?S_ID=1081&data-type=DOWNLOAD,FALSE
 Biostar,B660,Biostar B660T-SILVER,LGA1700,Mini ITX,2,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1073&data-type=DOWNLOAD,FALSE
 Biostar,Z690,Biostar Z690 VALKYRIE,LGA1700,ATX,4,Black / Gray,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1034&data-type=DOWNLOAD,FALSE
