@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SearchComponent from './components/SearchComponent';
 import BiosUpdateInstructions from './components/BiosUpdateInstructions';
 import StatisticsComponent from './components/StatisticsComponent';
+import LicenseInfo from './components/LicenseInfo';
 import { csvData } from './data';
 
 // Parse the CSV data
@@ -49,6 +50,10 @@ const App = () => {
       {activeTab === 'search' && <SearchComponent parsedData={parsedData} />}
       {activeTab === 'biosUpdate' && <BiosUpdateInstructions />}
       {activeTab === 'statistics' && <StatisticsComponent parsedData={parsedData} />}
+      
+      <footer className="mt-8 pt-4 border-t text-center text-gray-500">
+        <LicenseInfo />
+      </footer>
     </div>
   );
 };
