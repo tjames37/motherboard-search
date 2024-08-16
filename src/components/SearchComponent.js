@@ -43,7 +43,7 @@ const SearchComponent = ({ parsedData }) => {
             placeholder="Search for a motherboard..."
             className="w-full p-2 pl-10 pr-4 rounded-md bg-white border border-blue-400 focus:outline-none focus:border-blue-400 border-2"
           />
-          <Search className="absolute left-3 top-2.5 text-gray-400" size={20} />
+          <Search className="absolute left-3 top-2.5 text-blue-400" size={20} />
           {search && (
             <button
               onClick={() => {
