@@ -90,7 +90,7 @@ const SearchComponent = ({ parsedData }) => {
           <p><strong>DIMM Slots:</strong> {selectedMotherboard.dimms}</p>
           <p><strong>Color:</strong> {selectedMotherboard.color}</p>
           <p>
-            <strong>Latest Microcode Update: </strong>
+            <strong>Latest Microcode Update (0x129): </strong>
             <span className={`font-bold ${selectedMotherboard.hasLatestMicrocode ? 'text-green-600' : 'text-red-600'}`}>
               {selectedMotherboard.hasLatestMicrocode ? 'Available' : 'Not Available'}
             </span>
