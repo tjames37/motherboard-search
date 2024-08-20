@@ -628,6 +628,6 @@ MSI,Z790,MSI Z790 GAMING PLUS WIFI7,LGA1700,ATX,4,Black,https://www.msi.com/Moth
 MSI,B660,MSI PRO-B660M-VC-WIFI-DDR4,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B660M-VC-WIFI-DDR4/support,True
 MSI,B760,MSI PRO B760M-G,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-B760M-G/support,True
 NZXT,Z790,NZXT N7 Z790,LGA1700,ATX,4,White / Black,https://nzxt.com/product/n7-z790,True
-NZXT,Z690,NZXT N7 Z690,LGA1700,ATX,4,White / Black,https://nzxt.com/product/n7-z690,False
-NZXT,Z690,NZXT N5 Z690,LGA1700,ATX,4,White / Black,https://nzxt.com/product/n5-z690,False
+NZXT,Z690,NZXT N7 Z690,LGA1700,ATX,4,White / Black,https://nzxt.com/product/n7-z690,True
+NZXT,Z690,NZXT N5 Z690,LGA1700,ATX,4,White / Black,https://nzxt.com/product/n5-z690,True
 `;
