@@ -292,26 +292,26 @@ Biostar,H610,Biostar H610MHP,LGA1700,Micro ATX,2,Brown / Black,https://www.biost
 Biostar,B760,Biostar B760MZ-E PRO,LGA1700,Micro ATX,4,Brown / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1096&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760MX2-E PRO D4,LGA1700,Micro ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1127&data-type=DOWNLOAD,False
 Biostar,B660,Biostar B660GTN,LGA1700,Mini ITX,2,Blue / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1045&data-type=DOWNLOAD,False
-Biostar,B760,Biostar B760M-SILVER,LGA1700,Micro ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1095&data-type=DOWNLOAD,False
+Biostar,B760,Biostar B760M-SILVER,LGA1700,Micro ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1095&data-type=DOWNLOAD,True
 Biostar,H610,Biostar H610MX-E,LGA1700,Micro ATX,2,Gray / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1047&data-type=DOWNLOAD,False
 Biostar,B660,Biostar B660MX-E,LGA1700,Micro ATX,2,Gray / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1067&data-type=DOWNLOAD,False
 Biostar,Z790,Biostar Z790 VALKYRIE,LGA1700,ATX,4,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1089&data-type=DOWNLOAD,True
-Biostar,B760,Biostar B760MX2-E D4,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1097&data-type=DOWNLOAD,False
+Biostar,B760,Biostar B760MX2-E D4,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1097&data-type=DOWNLOAD,True
 Biostar,Z790,Biostar Z790A-SILVER,LGA1700,ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1088&data-type=DOWNLOAD,True
 Biostar,B760,Biostar B760MXC PRO 2.0,LGA1700,Micro ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1112&data-type=DOWNLOAD,False
 Biostar,B660,Biostar B660GTA,LGA1700,ATX,4,Blue / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1043&data-type=DOWNLOAD,False
 Biostar,B660,Biostar B660MXC PRO,LGA1700,Micro ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1072&data-type=DOWNLOAD,False
 Biostar,B660,Biostar B660MX-E PRO,LGA1700,Micro ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1058&data-type=DOWNLOAD,False
-Biostar,B760,Biostar B760A-SILVER,LGA1700,ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1094&data-type=DOWNLOAD,False
+Biostar,B760,Biostar B760A-SILVER,LGA1700,ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1094&data-type=DOWNLOAD,True
 Biostar,Z690,Biostar Z690A VALKYRIE,LGA1700,ATX,4,Black / Gray,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1040&data-type=DOWNLOAD,False
 Biostar,H610,Biostar H610MHP 2.0,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1139&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760MXC PRO,LGA1700,Micro ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1112&data-type=DOWNLOAD,False
-Biostar,B760,Biostar B760MX2-E,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1130&data-type=DOWNLOAD,False
+Biostar,B760,Biostar B760MX2-E,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1130&data-type=DOWNLOAD,True
 Biostar,B660,Biostar B660GTQ,LGA1700,Micro ATX,4,Blue / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1044&data-type=DOWNLOAD,False
 Biostar,H610,Biostar H610MHD D5,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1138&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760T-SILVER,LGA1700,Mini ITX,2,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1102&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760MX-E D4,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1098&data-type=DOWNLOAD,False
-Biostar,Z690,Biostar Z690A-SILVER,LGA1700,ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1046&data-type=DOWNLOAD,False
+Biostar,Z690,Biostar Z690A-SILVER,LGA1700,ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1046&data-type=DOWNLOAD,True
 Biostar,H610,Biostar H610MS,LGA1700,Micro ATX,2,Brown / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1124&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760MX-E,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1098&data-type=DOWNLOAD,False
 Biostar,H610,Biostar H610MT-E,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1148&data-type=DOWNLOAD,False
@@ -508,10 +508,10 @@ MSI,B760,MSI B760 GAMING PLUS WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.
 MSI,Z790,MSI PRO Z790-A MAX WIFI,LGA1700,ATX,4,Silver / Black,https://www.msi.com/Motherboard/PRO-Z790-A-MAX-WIFI/support,True
 MSI,Z790,MSI PRO Z790-P WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z790-P-WIFI/support,True
 MSI,B760,MSI PRO B760-P WIFI DDR4,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760-P-WIFI-DDR4/support,True
-MSI,H610,MSI PRO H610M-G DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-G-DDR4/support,False
+MSI,H610,MSI PRO H610M-G DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-G-DDR4/support,True
 MSI,Z790,MSI MAG Z790 TOMAHAWK WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support,True
 MSI,B760,MSI PRO B760M-P DDR4,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760M-P-DDR4/support,True
-MSI,H610,MSI PRO H610M-G WIFI DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-G-WIFI-DDR4/support,False
+MSI,H610,MSI PRO H610M-G WIFI DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-G-WIFI-DDR4/support,True
 MSI,B760,MSI MAG B760 TOMAHAWK WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/MAG-B760-TOMAHAWK-WIFI/support,True
 MSI,H610,MSI PRO-H610M-E-DDR4,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-E-DDR4/support,True
 MSI,Z790,MSI PRO Z790-S WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-Z790-S-WIFI/support,True
@@ -537,40 +537,40 @@ MSI,B760,MSI MPG B760I EDGE WIFI,LGA1700,Mini ITX,2,Black / Silver,https://www.m
 MSI,B660,MSI MAG B660 TOMAHAWK WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI-DDR4/support,True
 MSI,B760,MSI PRO B760M-P,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760M-P/support,True
 MSI,Z790,MSI MPG Z790 EDGE WIFI,LGA1700,ATX,4,Silver / Black,https://www.msi.com/Motherboard/MPG-Z790-EDGE-WIFI/support,True
-MSI,Z690,MSI MAG Z690 TOMAHAWK WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-Z690-TOMAHAWK-WIFI-DDR4/support,False
+MSI,Z690,MSI MAG Z690 TOMAHAWK WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-Z690-TOMAHAWK-WIFI-DDR4/support,True
 MSI,Z790,MSI MPG Z790 CARBON WIFI II,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/MPG-Z790-CARBON-WIFI-II/support,True
 MSI,Z790,MSI MEG Z790 ACE MAX,LGA1700,EATX,4,Black,https://www.msi.com/Motherboard/MEG-Z790-ACE-MAX/support,True
 MSI,B760,MSI PRO B760M-A WIFI,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760M-A-WIFI/support,True
 MSI,Z690,MSI PRO Z690-A DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z690-A-DDR4/support,True
 MSI,Z790,MSI MEG Z790 ACE,LGA1700,EATX,4,Gold / Black,https://www.msi.com/Motherboard/MEG-Z790-ACE/support,True
 MSI,Z790,MSI PRO Z790-A WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z790-A-WIFI/support,True
-MSI,B760,MSI PRO B760-P DDR4 II,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760-P-DDR4-II/support,False
+MSI,B760,MSI PRO B760-P DDR4 II,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760-P-DDR4-II/support,True
 MSI,Z690,MSI MPG Z690 EDGE WIFI DDR4,LGA1700,ATX,4,Black / Gray,https://www.msi.com/Motherboard/MPG-Z690-EDGE-WIFI-DDR4/support,True
 MSI,B660,MSI PRO B660M-A WIFI DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-A-WIFI-DDR4/support,True
-MSI,Z790,MSI MEG Z790 GODLIKE,LGA1700,EATX,4,Black,https://www.msi.com/Motherboard/MEG-Z790-GODLIKE/support,False
+MSI,Z790,MSI MEG Z790 GODLIKE,LGA1700,EATX,4,Black,https://www.msi.com/Motherboard/MEG-Z790-GODLIKE/support,True
 MSI,Z690,MSI PRO Z690-A WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z690-A-WIFI-DDR4/support,True
 MSI,B760,MSI B760M PROJECT ZERO,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/B760M-PROJECT-ZERO/support,True
-MSI,B760,MSI MPG B760M EDGE TI WIFI,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MPG-B760M-EDGE-TI-WIFI/support,False
-MSI,Z690,MSI MEG Z690 UNIFY,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690-UNIFY/support,False
+MSI,B760,MSI MPG B760M EDGE TI WIFI,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MPG-B760M-EDGE-TI-WIFI/support,True
+MSI,Z690,MSI MEG Z690 UNIFY,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690-UNIFY/support,True
 MSI,B760,MSI PRO B760-VC WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760-VC-WIFI/support,True
 MSI,B660,MSI MAG B660M MORTAR WIFI DDR4,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MAG-B660M-MORTAR-WIFI-DDR4/support,True
 MSI,Z690,MSI MPG Z690 CARBON WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MPG-Z690-CARBON-WIFI/support,True
 MSI,B760,MSI PRO B760-P WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B760-P-WIFI/support,True
 MSI,H610,MSI PRO H610M-E,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-E/support,True
-MSI,H610,MSI PRO H610M-G,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-G/support,False
+MSI,H610,MSI PRO H610M-G,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-G/support,True
 MSI,Z790,MSI MPG Z790 EDGE MONSTER HUNTER EDITION,LGA1700,ATX,4,Black / Red,https://www.msi.com/Motherboard/MPG-Z790-EDGE-MONSTER-HUNTER-EDITION/support,True
-MSI,Z690,MSI MEG Z690 ACE,LGA1700,EATX,4,Black / Gold,https://www.msi.com/Motherboard/MEG-Z690-ACE/support,False
+MSI,Z690,MSI MEG Z690 ACE,LGA1700,EATX,4,Black / Gold,https://www.msi.com/Motherboard/MEG-Z690-ACE/support,True
 MSI,B660,MSI PRO B660M-A DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-A-DDR4/support,True
 MSI,Z690,MSI MPG Z690 FORCE WIFI,LGA1700,ATX,4,Silver / Black,https://www.msi.com/Motherboard/MPG-Z690-FORCE-WIFI/support,True
 MSI,B760,MSI PRO B760M-E DDR4,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-B760M-E-DDR4/support,True
-MSI,B760,MSI PRO B760-P II,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B760-P-II/support,False
+MSI,B760,MSI PRO B760-P II,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B760-P-II/support,True
 MSI,Z790,MSI PRO Z790-A WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z790-A-WIFI-DDR4/support,True
 MSI,Z690,MSI PRO Z690-P DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z690-P-DDR4/support,True
 MSI,Z690,MSI MPG Z690 EDGE WIFI,LGA1700,ATX,4,,https://www.msi.com/Motherboard/MPG-Z690-EDGE-WIFI/support,True
 MSI,B660,MSI MAG B660M MORTAR DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-B660M-MORTAR-DDR4/support,True
 MSI,Z690,MSI PRO Z690-A,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z690-A/support,True
 MSI,B760,MSI MAG B760M MORTAR WIFI,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-B760M-MORTAR-WIFI/support,True
-MSI,Z690,MSI MAG Z690 TOMAHAWK WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-Z690-TOMAHAWK-WIFI/support,False
+MSI,Z690,MSI MAG Z690 TOMAHAWK WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-Z690-TOMAHAWK-WIFI/support,True
 MSI,Z790,MSI MPG Z790 EDGE WIFI DDR4,LGA1700,ATX,4,Silver / Black,https://www.msi.com/Motherboard/MPG-Z790-EDGE-WIFI-DDR4/support,True
 MSI,B660,MSI PRO B660M-A WIFI,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-A-WIFI/support,True
 MSI,Z690,MSI MEG Z690I UNIFY,LGA1700,Mini ITX,2,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690I-UNIFY/support,True
@@ -578,14 +578,14 @@ MSI,B660,MSI PRO B660-A DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Mo
 MSI,B660,MSI MAG B660M BAZOOKA DDR4,LGA1700,Micro ATX,4,Green / Black,https://www.msi.com/Motherboard/MAG-B660M-BAZOOKA-DDR4/support,True
 MSI,B660,MSI PRO-B660M-A-CEC-WIFI-DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-A-CEC-WIFI-DDR4/support,True
 MSI,Z790,MSI MPG Z790 CARBON MAX WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/MPG-Z790-CARBON-MAX-WIFI/support,True
-MSI,Z790,MSI Z790 GAMING WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/Z790-GAMING-WIFI/support,False
+MSI,Z790,MSI Z790 GAMING WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/Z790-GAMING-WIFI/support,True
 MSI,B760,MSI PRO B760-VC WIFI II,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760-VC-WIFI-II/support,True
 MSI,B760,MSI MPG B760I EDGE WIFI DDR4,LGA1700,Mini ITX,2,Silver / Black,https://www.msi.com/Motherboard/MPG-B760I-EDGE-WIFI-DDR4/support,True
 MSI,B760,MSI MAG B760M MORTAR MAX WIFI DDR4,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MAG-B760M-MORTAR-MAX-WIFI-DDR4/support,True
 MSI,B760,MSI PRO B760M-G DDR4,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-B760M-G-DDR4/support,True
 MSI,B660,MSI MAG B660M MORTAR MAX WIFI DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-B660M-MORTAR-MAX-WIFI-DDR4/support,True
-MSI,H610,MSI PRO H610M-B DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-B-DDR4/support,False
-MSI,B660,MSI PRO B660M-E DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-E-DDR4/support,False
+MSI,H610,MSI PRO H610M-B DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-B-DDR4/support,True
+MSI,B660,MSI PRO B660M-E DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-E-DDR4/support,True
 MSI,B760,MSI B760M GAMING PLUS WIFI DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/B760M-GAMING-PLUS-WIFI-DDR4/support,True
 MSI,Z790,MSI PRO Z790-P DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z790-P-DDR4/support,True
 MSI,B660,MSI MAG B660 TOMAHAWK EVA e-PROJECT,LGA1700,ATX,4,Purple / Black,https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-EVA-E-PROJECT/support,True
@@ -594,35 +594,35 @@ MSI,Z690,MSI MAG Z690M MORTAR WIFI,LGA1700,Micro ATX,4,Silver / Black,https://ww
 MSI,Z790,MSI PRO Z790-P,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-Z790-P/support,True
 MSI,B660,MSI MAG B660 TOMAHAWK WIFI,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-B660-TOMAHAWK-WIFI/support,True
 MSI,B760,MSI PRO B760M-B,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-B760M-B/support,True
-MSI,Z690,MSI MEG Z690 UNIFY-X,LGA1700,ATX,2,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690-UNIFY-X/support,False
+MSI,Z690,MSI MEG Z690 UNIFY-X,LGA1700,ATX,2,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690-UNIFY-X/support,True
 MSI,H610,MSI PRO H610M-S DDR4,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-S-DDR4/support,True
 MSI,B660,MSI PRO B660M-G DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-G-DDR4/support,True
-MSI,Z690,MSI MEG Z690 GODLIKE,LGA1700,EATX,4,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690-GODLIKE/support,False
+MSI,Z690,MSI MEG Z690 GODLIKE,LGA1700,EATX,4,Black / Silver,https://www.msi.com/Motherboard/MEG-Z690-GODLIKE/support,True
 MSI,B660,MSI MAG B660M MORTAR WIFI,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MAG-B660M-MORTAR-WIFI/support,True
 MSI,B760,MSI MAG B760M MORTAR MAX WIFI,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MAG-B760M-MORTAR-MAX-WIFI/support,True
-MSI,Z690,MSI MAG Z690 TORPEDO,LGA1700,ATX,4,Blue / Black,https://www.msi.com/Motherboard/MAG-Z690-TORPEDO/support,False
-MSI,B660,MSI PRO B660M-P DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-P-DDR4/support,False
+MSI,Z690,MSI MAG Z690 TORPEDO,LGA1700,ATX,4,Blue / Black,https://www.msi.com/Motherboard/MAG-Z690-TORPEDO/support,True
+MSI,B660,MSI PRO B660M-P DDR4,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-P-DDR4/support,True
 MSI,B760,MSI B760 GAMING PLUS WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/B760-GAMING-PLUS-WIFI-DDR4/support,True
 MSI,B760,MSI B760M GAMING WIFI,LGA1700,Micro ATX,2,Silver / Black,https://www.msi.com/Motherboard/B760M-GAMING-WIFI/support,True
 MSI,B760,MSI MAG B760M MORTAR,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MAG-B760M-MORTAR/support,True
 MSI,B760,MSI PRO B760M-A DDR4 II,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/PRO-B760M-A-DDR4-II/support,True
 MSI,B660,MSI MAG B660M MORTAR,LGA1700,Micro ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-B660M-MORTAR/support,True
 MSI,H610,MSI PRO H610M-S WIFI DDR4,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-S-WIFI-DDR4/support,True
-MSI,H670,MSI MAG H670 TOMAHAWK WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-H670-TOMAHAWK-WIFI-DDR4/support,False
+MSI,H670,MSI MAG H670 TOMAHAWK WIFI DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/MAG-H670-TOMAHAWK-WIFI-DDR4/support,True
 MSI,B660,MSI PRO-B660M-B-DDR4,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-B-DDR4/support,True
 MSI,B660,MSI PRO B660M-G,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-G/support,True
 MSI,Z690,MSI PRO Z690-P WIFI,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-Z690-P-WIFI/support,True
-MSI,H610,MSI PRO H610M-G WIFI,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-G-WIFI/support,False
+MSI,H610,MSI PRO H610M-G WIFI,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-G-WIFI/support,True
 MSI,B760,MSI PRO B760-P DDR4,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B760-P-DDR4/support,True
 MSI,B760,MSI MAG B760M MORTAR II,LGA1700,Micro ATX,4,Silver / Black,https://www.msi.com/Motherboard/MAG-B760M-MORTAR-II/support,True
-MSI,B660,MSI PRO B660M-P WIFI DDR4,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B660M-P-WIFI-DDR4/support,False
+MSI,B660,MSI PRO B660M-P WIFI DDR4,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B660M-P-WIFI-DDR4/support,True
 MSI,B760,MSI PRO B760-VC,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760-VC/support,True
 MSI,B660,MSI PRO B660-A,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/PRO-B660-A/support,True
 MSI,B660,MSI PRO B660M-B,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-B660M-B/support,True
 MSI,B760,MSI PRO B760M-A DDR4,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B760M-A-DDR4/support,True
-MSI,H610,MSI PRO H610M-C EX,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-C-EX/support,False
+MSI,H610,MSI PRO H610M-C EX,LGA1700,Micro ATX,2,Black / Silver,https://www.msi.com/Motherboard/PRO-H610M-C-EX/support,True
 MSI,Z790,MSI Z790-S01,LGA1700,ATX,4,Black / Silver,https://www.msi.com/Motherboard/Z790-S01/support,True
-MSI,H610,MSI PRO H610M-G II,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-G-II/support,False
+MSI,H610,MSI PRO H610M-G II,LGA1700,Micro ATX,2,Black,https://www.msi.com/Motherboard/PRO-H610M-G-II/support,True
 MSI,Z790,MSI PRO Z790-P II,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/PRO-Z790-P-II/support,True
 MSI,Z790,MSI Z790 GAMING PLUS WIFI7,LGA1700,ATX,4,Black,https://www.msi.com/Motherboard/Z790-GAMING-PLUS-WIFI7/support,False
 MSI,B660,MSI PRO-B660M-VC-WIFI-DDR4,LGA1700,Micro ATX,4,Black,https://www.msi.com/Motherboard/PRO-B660M-VC-WIFI-DDR4/support,True
