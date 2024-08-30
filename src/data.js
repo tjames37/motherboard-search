@@ -304,11 +304,11 @@ Biostar,B660,Biostar B660MXC PRO,LGA1700,Micro ATX,4,Black / Silver,https://www.
 Biostar,B660,Biostar B660MX-E PRO,LGA1700,Micro ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1058&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760A-SILVER,LGA1700,ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1094&data-type=DOWNLOAD,True
 Biostar,Z690,Biostar Z690A VALKYRIE,LGA1700,ATX,4,Black / Gray,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1040&data-type=DOWNLOAD,False
-Biostar,H610,Biostar H610MHP 2.0,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1139&data-type=DOWNLOAD,False
+Biostar,H610,Biostar H610MHP 2.0,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1139&data-type=DOWNLOAD,True
 Biostar,B760,Biostar B760MXC PRO,LGA1700,Micro ATX,4,Black / Silver,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1112&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760MX2-E,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1130&data-type=DOWNLOAD,True
 Biostar,B660,Biostar B660GTQ,LGA1700,Micro ATX,4,Blue / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1044&data-type=DOWNLOAD,False
-Biostar,H610,Biostar H610MHD D5,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1138&data-type=DOWNLOAD,False
+Biostar,H610,Biostar H610MHD D5,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1138&data-type=DOWNLOAD,True
 Biostar,B760,Biostar B760T-SILVER,LGA1700,Mini ITX,2,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1102&data-type=DOWNLOAD,False
 Biostar,B760,Biostar B760MX-E D4,LGA1700,Micro ATX,2,Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1098&data-type=DOWNLOAD,False
 Biostar,Z690,Biostar Z690A-SILVER,LGA1700,ATX,4,Silver / Black,https://www.biostar.com.tw/app/en/mb/introduction.php?S_ID=1046&data-type=DOWNLOAD,True
