@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://tjames37.github.io/motherboard-search/sitemap.xml
